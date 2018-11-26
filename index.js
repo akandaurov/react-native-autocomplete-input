@@ -142,6 +142,7 @@ class Autocomplete extends Component {
         onEndReached={onEndReached}
         onEndReachedThreshold={onEndReachedThreshold}
         style={[styles.list, listStyle]}
+        nestedScrollEnabled
       />
     );
   }
